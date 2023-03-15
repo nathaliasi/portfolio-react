@@ -5,10 +5,7 @@ const ProjectsContainer = () => {
     <section className='projects-container'>
        
             <h2>Projetos</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non sed 
-            ducimus rerum quas, aut exercitationem reprehenderit, quos, fugiat au
-            tem recusandae voluptatem commodi placeat at a eos culpa illum optio et!
-            </p>
+            <p>Projetos pessoais, projetos da faculdade e etc...</p>
             <a href='#' className='btn'>Ver Projetos</a>
     
     </section>

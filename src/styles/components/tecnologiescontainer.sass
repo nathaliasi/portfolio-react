@@ -5,9 +5,9 @@
     margin-bottom: 1rem
     
     .tecnologies-grid
-        display: flex
-        flex-wrap: wrap-reverse
-        gap: 1.5rem
+        display: grid
+        grid-template-columns: 2fr 2fr
+        row-gap: 1rem
 
         .tecnology-card
             @include mixins.center()
@@ -23,3 +23,25 @@
 
             svg
                 font-size: 8rem
+
+#html
+    svg
+        color: #E44D26                
+#css
+    svg
+        color: #1572B6
+#js
+    svg
+        color: #F0DB4F
+
+#node
+    svg
+        color: #83CD29
+
+#mysql
+    svg
+         color: #00618A
+
+#react
+    svg
+        color: #61DAFB

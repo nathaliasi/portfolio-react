@@ -1,13 +1,14 @@
 import React from 'react'
+import '../styles/components/aboutcontainer.sass'
 
 const AboutContainer = () => {
   return (
     <section className='about-container'>
        
             <h2>Sobre</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non sed 
-            ducimus rerum quas, aut exercitationem reprehenderit, quos, fugiat au
-            tem recusandae voluptatem commodi placeat at a eos culpa illum optio et!
+            <p>Atualmente cursando Sistemas de Informação no Cefet-RJ em Nova Friburgo, 
+            caí de paraquedas na faculdade e descobri que posso realizar meus sonhos 
+            através da tecnologia.
             </p>
     
     </section>
