@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/components/sidebar.sass';
 import SocialNetworks from './SocialNetworks';
 import InformationContainer from './informationContainer';
+import ButtonDownload from './ButtonDownload';
 
 import Avatar from '../img/eu2.png';
 
@@ -12,7 +13,7 @@ const sidebar = () => {
       <p className='title'>Desenvolvedora Front-End</p>
       <SocialNetworks />
       <InformationContainer />
-      <a href='' className='btn'>Download currículo</a>
+      <ButtonDownload/>
     </aside>
   )
 }

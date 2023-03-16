@@ -8,7 +8,6 @@ function App() {
       <h1>Nathália Sardou</h1>
       <Sidebar/>
       <MainContent/>
-       
     </div>
   )
 }
