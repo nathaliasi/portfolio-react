@@ -3,17 +3,24 @@
 
 .tecnologies-container
     margin-bottom: 1rem
-    @media(min-width: 280px) and (max-width: 491px)
-        max-width: fit-content
+   
     
     .tecnologies-grid
         display: grid
         grid-template-columns: 2fr 2fr
         row-gap: 1rem
-        @media(min-width: 280px) and (max-width: 491px)
+        @media(min-width: 280px) and (max-width: 280px)
+            display: flex
+            overflow-x: scroll
+            max-width: 200px
+        @media(min-width: 281px) and (max-width: 491px)
             display: flex
             overflow-x: scroll
             max-width: 275px
+        @media(min-width: 540px) and (max-width: 540px)
+                display: flex
+                overflow-x: scroll
+                max-width: 350px
 
         
            
@@ -25,36 +32,55 @@
             border: 1px solid #333
             width: 45%
             border-radius: variables.$card-border-radius
+            @media(min-width: 280px) and (max-width: 1024px)
+                flex-direction: column
+            
            
 
             h3
                 color: variables.$text-color
                 margin-bottom: 1rem
+               
 
             svg
                 font-size: 8rem
 
 #html
     svg
-        color: #E44D26                
-#css
+        color: #E44D26
+        max-width: 95%                
+#sass
     svg
         color: #1572B6
+        max-width: 95%                
+
 #js
     svg
         color: #F0DB4F
+        max-width: 70%                
+        
 
 #node
     svg
         color: #83CD29
+        max-width: 95%                
+
 
 #mysql
     svg
          color: #00618A
+         max-width: 95%                
+
 
 #react
     svg
         color: #61DAFB
+        max-width: 95%                
+
+#java
+    svg
+        max-width: 100%                
+
         
 
 

@@ -10,15 +10,23 @@
     flex-direction: column
     text-align: center
     position: relative
-    padding: 3rem 0
+    padding: 8rem 4rem
     border-radius: 10px
     height: fit-content
+    @media(min-width: 280px) and (max-width: 491px)
+        padding: 1rem 0
+        max-width: 100%
+    @media(min-width: 492px) and (max-width: 1024px)
+        font-size: 1.5rem
 
     img
         max-width: 100%
         border-radius: variables.$container-border-radius
         position: absolute
         top: -3rem
+        @media(min-width: 280px) and (max-width: 491px)
+            max-width: 70%
+            
 
     .title
         color: variables.$text-color-secundary

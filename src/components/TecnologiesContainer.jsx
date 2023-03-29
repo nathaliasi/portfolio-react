@@ -1,28 +1,30 @@
 import React from 'react'
 import{
   DiHtml5,
-  DiCss3,
+  DiSass,
   DiJsBadge,
   DiNodejsSmall,
   DiMysql,
-  DiReact
+  DiReact,
+  DiJava,
 } from 'react-icons/di';
 import '../styles/components/tecnologiescontainer.sass'
 
 const technologies = [
   { id: "html", name: "HTML5", icon: <DiHtml5 /> },
-  { id: "css", name: "CSS3", icon: <DiCss3 /> },
+  { id: "sass", name: "SASS", icon: < DiSass /> },
   { id: "js", name: "JavaScript", icon: <DiJsBadge /> },
   { id: "node", name: "Node.js", icon: <DiNodejsSmall /> },
   { id: "mysql", name: "MySQL", icon: <DiMysql /> },
   { id: "react", name: "React", icon: <DiReact /> },
+  { id: "java", name: "Java", icon: <DiJava /> }
 ];
 
 const TecnologiesContainer = () => {
   return (
    <section className='tecnologies-container'>
     <h2>
-      Tecnologias
+      Skills
     </h2>
     <div className='tecnologies-grid'>
     {technologies.map((tech) => (
