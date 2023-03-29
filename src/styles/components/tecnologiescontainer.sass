@@ -3,11 +3,20 @@
 
 .tecnologies-container
     margin-bottom: 1rem
+    @media(min-width: 280px) and (max-width: 491px)
+        max-width: fit-content
     
     .tecnologies-grid
         display: grid
         grid-template-columns: 2fr 2fr
         row-gap: 1rem
+        @media(min-width: 280px) and (max-width: 491px)
+            display: flex
+            overflow-x: scroll
+            max-width: 275px
+
+        
+           
 
         .tecnology-card
             @include mixins.center()
@@ -16,6 +25,7 @@
             border: 1px solid #333
             width: 45%
             border-radius: variables.$card-border-radius
+           
 
             h3
                 color: variables.$text-color
@@ -45,3 +55,7 @@
 #react
     svg
         color: #61DAFB
+        
+
+
+       
