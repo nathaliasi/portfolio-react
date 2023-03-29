@@ -12,13 +12,15 @@ const socialNetworks = [
 const SocialNetworks = () => {
   return (
    <section id='social-networks'>
+       
     {socialNetworks.map((network) => (
         <a href='https://github.com/nathaliasi'  className='social-btn' id={network.name} key={network.name}>
             {network.icon}
         </a>
-        
+       
     )
     )}
+
    </section>
   )
 }
